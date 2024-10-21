@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: center;
+    background-color: black;
+    cursor: pointer;
+}
+.calculator{
+    background-color: #393939;
+    height: auto;
+    width: 300px;
+    box-shadow:  8px 5px  20px rgba(184, 184, 192, 0.7);
+    border-radius: 20px;
+}
+.screen-counter{
+margin-top: 40px;
+text-align: center;
+}
+.screen{
+    width: 290px;
+    height: 80px;
+    background-color: silver;
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: #393939;
+    margin-bottom: 10px;
+    font-size: 30px;
+    pointer-events: none;
+}
+.buttons-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 15px;
+   gap: 10px;
+}
+.silver-button{
+    background-color: silver;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    clip-path: circle();
+    border: none;
+    
+}
+.silver-button:hover{
+    background-color: rgb(144, 137, 137);
+}
+.yellow-button{
+    background-color: gold;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    clip-path: circle();
+    border: none;
+}
+.yellow-button:hover{
+    background-color: rgb(207, 194, 119)
+}
+.black-button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    clip-path: circle();
+    font-weight: bold;
+    border: none;
+}
+.black-button:hover{
+    background-color: rgb(37, 34, 34)
+}
+.black-button:active{
+    background-color: rgb(12, 8, 8)
+}
+.black-button-zero{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 125px;
+    height: 60px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+}
+.delete-button{
+    background-color: silver;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    clip-path: circle();
+    border: none;
+    
+}
+.delete-button:hover{
+    background-color: rgb(144, 137, 137);
+}
+.delete-button:active{
+    background-color: wheat
+}
+.clear-button{
+    background-color: silver;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    clip-path: circle();
+    border: none;
+   
+}
+.clear-button:hover{
+    background-color: rgb(144, 137, 137);
+}
+.clear-button:active{
+    background-color: wheat
+}
